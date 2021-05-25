@@ -1,0 +1,21 @@
+.container{
+    width: 70%;
+    margin: 0 auto;
+
+
+    .card-content{
+            .hoverable{
+
+                .icon_hide{
+
+                    i{
+                        display: none;
+                    }
+                }
+            }
+
+            .hoverable:hover i{
+                display: block;
+            }
+        }
+    }
